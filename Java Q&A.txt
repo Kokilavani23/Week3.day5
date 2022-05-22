@@ -1,0 +1,51 @@
+1)Java main method is the entry point of any java program. Main method() must be static because 
+   it is a class level method.Its syntax is always public static void main(String[]args).you can only
+   change the name of the string array argument.
+
+2)The different control flow statements available in java such as:
+   (i)Decision making statement
+   (ii)Iteration statements
+   (iii)Branching statements
+
+3)Break statements:
+   (i)The break statement is used to terminate the loop immediately.
+   (ii)Break keyword is used to indicate break statements in java progamming.
+  Continue statements:
+  (i)The continue statemen is used to skip the current iteration of the loop.
+  (ii)Continue keyword is used to indicate continue statements in java progamming.
+
+4)Array is a collection of similar data type and its define with a square bracket.
+  Array declaration: 
+ (i)Literal - int[]arr={1,2,3};
+ (ii)Using new keyword - int[]arr=new int[3]
+
+5)The ArrayIndexOutofBoundException is thrown if a program tries to access an array index
+  that is negative,greater than,or equal to the length of the array.
+
+6)Syntax for crating object:
+  Classname objectname=new constructor();
+  
+  when we create instance of a class by using new keyword it allocate new heap for newly created
+  object.
+  while creating naming convention should be giving as methods.Methods should be verbs in mixed
+  case with the first letter lowercase,with the first letter of each internal word capatilized.
+
+7)Variables are containers for storing data values.It has name,value,type.
+   variable declaration:
+   Datatype followed by the variable name - ex:int a=10;
+
+8) A sequence of character is called a String.string can be surrounded by double quotes.    
+   string is a class in java.
+   Is it a data type:
+   A string is a special datatype in java.it comes under Non-primitive data type.
+
+9)The different ways to create the string object in java such as:
+   (i)Literal:(string constant pool)
+   String variablename="stringvalue";  ex: String name="Testleaf";
+  (ii)Using New keyword:(Heap memory)
+  String variablename=New String("value");  ex:String name=New String("Testleaf");
+
+10).Equals:
+     It is a method and It is used to compare the string(To check the content).
+     ==:
+     It is a operator and it is used to compare the string(To check the memory address).

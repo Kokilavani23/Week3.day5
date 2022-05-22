@@ -1,0 +1,66 @@
+1)Selenium is an automation testing tool used to  test web-based applications.It is a open-source tool 
+   that automates web browsers.
+   Different components of selenium such as:
+   (i)selenium IDE
+   (ii)RC
+   (iii)Web Driver
+   (iv)Grid
+   Selenium WebDriver:
+   Selenium webdriver is used to automate web application testing to verify that it works as expected.It
+   supports many browsers such as firefox,chrome,safari etc.
+
+2)To communicate between server and client(browser).selenium web driver uses JSON.JSON wire 
+   protocol is a REST API that transfers the information between HTTP servers.each browser driver has 
+   its own HTTP server.
+
+3)The locators available to find an element using selenium such as:
+   (i)Id
+   (ii)Class name
+   (iii)Tag name
+   (iv)Link text
+   (v)Class partial
+   (vi)Xpath
+   (vii)Css selector
+
+4)ID is prefarable than xpath:
+   ID is considered as unique key so there cannot be more than 1 elements for same ID while xpath is 
+   created using relative path/position elements,so there can be cases when we can get two or more 
+   elements for same xpath.
+
+5)Select value in dropdown:
+   (i)SelectByVisibleText
+   (ii)SelectByIndex
+   (iii)SelectByValue
+
+6)Absolute path:
+  Absolute path start from root node and its start with single slash(/).
+  Relative path:
+  Relative path start with currrent Tag name and its start with double slash(//).
+
+7)In order to check if a checkbox is checked or unchecked,it can used the selected() method over the 
+  checkbox element.
+  The selected() method returns a boolean value of of true if the checkbox is checked otherwise it 
+  returns false.
+
+8)System.set property:
+   (i)It is used to configure the browser driver path.
+   (ii)The selenium client library communicates with the chromedriver via the JSON wire protocol.
+   (iii)The chrome browser driver acts like a link between the selenium implementation code and 
+   the chrome browser.
+   WebDriverManager:
+   (i)It automates the browser setup in the selenium code.
+   (ii)By default,it downloads the latest version of the browser binary and also the binary for the 
+      appropriate platform.
+   (iii)we have to add the dependency for WebDriverManager in case the code belongs to maven
+   or gradle environment.
+
+9)Syntax for preceding x-path:
+   //input[text()='testleaf ']//preceding sibling::input
+   Syntax for following x-path:
+   //label[text()='testleaf ']//following sibling::label
+
+10)To get an attribute value using selenium WebDriver:
+    To get Attribute() method of the element interface returns the value of a specified attribute on 
+    the element.if the given attribute does not exist,the value returned will either null or " " (the empty
+    string).
+  	
